@@ -43,7 +43,7 @@ este ejemplo:
 
 `sed "s/[0-9]\+:[0-9]\+//g"`
 
-El texto que buscamos esta compuesto de uno o mas digitos ([0-9]\+; el `+` hay
+El texto que buscamos esta compuesto de uno o mas digitos ([0-9]\\+; el `+` hay
 que escaparlo) seguido de el caracter ':' y de uno o mas digitos. Cualquier
 ocurrencia de este patron es reemplazado por la cadena vacia; es decir, es
 eliminado. En este ejemplo hemos visto como podemos tener flexibilidad en el
