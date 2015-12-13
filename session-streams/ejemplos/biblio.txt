@@ -1,0 +1,3 @@
+Martínez Pérez, P. (1995). Sed o no sed.
+García Gómez, R. (2010). Instalar Linux y tener sed.
+Smith, M., & Doe, J. (1989). First steps with sed.
