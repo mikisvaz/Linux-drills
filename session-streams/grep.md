@@ -7,7 +7,7 @@ XXX".
 
 Como todos los buenos comandos en linux sigue la filosofia de hacer una sola
 cosa pero hacerla muy bien. La cosa que hace es filtrar las lineas de un
-fichero (o stream) comprobando si cumplen cierto patron. El patro se define
+fichero (o stream) comprobando si cumplen cierto patron. El patron se define
 utilizando una cosa llamada `expresiones regulares`. Las expresiones regulares
 es otro de los pilares del procesamiento de datos. Su conocimiento es clave
 para muchas tareas.
@@ -43,7 +43,7 @@ Veremos algo mas cuando entremos en `sed`
 
 * Ejercicio 2: Utilizar grep para buscar aquellas mutaciones donde el
   chromosoma sea "10". Es decir, lineas que incluyan "10:". Para evitar que
-  encuentr lineas como esta "2:111111110:T" tenemos que especificar que el
+  encuentre lineas como esta "2:111111110:T" tenemos que especificar que el
   patron "10:" ocurra al principio de la linea.
 
 * Ejercicio 3: Utilizar grep para buscar aquellas mutaciones donde el

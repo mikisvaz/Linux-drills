@@ -20,7 +20,8 @@ realizar la sustitucion. La sustitucion en cuestion esta definida por el
 parametro `s/hola/adios`. La `s` inicial indica que en efecto estamos pidiendo
 que haga una sustitucion. Los caracteres `/` delimitan las dos partes de la
 sustitucion: el patron que se busca (hola), y el texto con el que reemplazarlo
-(adios). La ejecucion concreta de este comando buscara la primera ocurrencia del texto 'hola' (por cada linea) y la sustituira por 'adios'.
+(adios). La ejecucion concreta de este comando buscara la primera ocurrencia
+del texto 'hola' (por cada linea) y la sustituira por 'adios'.
 
 `sed "s/hola/adios/g"`
 
@@ -31,7 +32,9 @@ sustitucion.  Otro modificador comun es `I` que indica que la sustitucion
 ignore la diferencia entre mayusculas y minusculas (case Insensitive, donde
 'case' viene de uppercase y lowercase): `sed "s/hola/adios/gI"`
 
-Como en el caso de `grep` no es necesario leer la entrada de STDIN, sino que se puede poner el nombre de un archivo. Tambien es posible, como siempre en Unix/Linux, redirigir la salida a otro fichero
+Como en el caso de `grep` no es necesario leer la entrada de STDIN, sino que se
+puede poner el nombre de un archivo. Tambien es posible, como siempre en
+Unix/Linux, redirigir la salida a otro fichero
 
 `sed "s/hola/adios/g" fichero_entrada.txt > fichero_salida.txt`
 
@@ -49,14 +52,14 @@ patron que queremos buscar. Veamos este otro ejemplo:
 `sed "s/\([0-9]\+\):\([0-9]\+\)/\1-\2/g"`
 
 El patron que buscamos es basicamente el mismo, solo que ahora hemos puesto
-unos parentesis (escapados con '\') rodeando al primer y segundo conjunto 
-de digitos. Estos parentesis se denominan 'grupos', y el texto que encaja en
-cada uno se dice que esta 'capturado por el grupo'; es decir, pedimos a `sed`
-que recuerde que parte del texto encaja con cada grupo. En la segunda parte
-del comando, el que contiene el texto que se usara para reemplazar, utilizamos
-este texto capturado. Los caracteres `\1` y `\2` corresponden al texto capturado
-por los grupos uno y dos respectivamente. El resultado de este comando es que
-una linea como
+unos parentesis (escapados con '\') rodeando al primer y segundo conjunto de
+digitos. Estos parentesis se denominan 'grupos', y el texto que encaja en cada
+uno se dice que esta 'capturado por el grupo'; es decir, pedimos a `sed` que
+recuerde que parte del texto encaja con cada grupo. En la segunda parte del
+comando, el que contiene el texto que se usara para reemplazar, utilizamos este
+texto capturado. Los caracteres `\1` y `\2` corresponden al texto capturado por
+los grupos uno y dos respectivamente. El resultado de este comando es que una
+linea como
 
 "Mientras escribo esto son las 17:40"
 
@@ -81,8 +84,10 @@ para entender su versatilidad.
 
 `sed "s/^ *\([[:alpha:]]\+\).*/\1/"`
 
-El comando anterior buscara lineas que comiencen (^) por 0 o mas espacios (' *')
-seguido de uno o mas caracteres alfanumericos ([[:alpha:]]\+), que capturamos, y seguido de cualquier secuencia de catacteres (.*). Es decir, sustituira cualquier linea por su primera palabra. Por ejemplo
+El comando anterior buscara lineas que comiencen (^) por 0 o mas espacios ('
+*') seguido de uno o mas caracteres alfanumericos ([[:alpha:]]\+), que
+capturamos, y seguido de cualquier secuencia de catacteres (.*). Es decir,
+sustituira cualquier linea por su primera palabra. Por ejemplo
 
 "    Aqui empieza mi linea"
 
@@ -111,7 +116,8 @@ tomara el patron encontrado y lo rodeara de parentesis.
 Vamos a realizar algunos ejercicios. Los he tomado de la (siguiente
 pagina)[http://castilloinformatica.com/wiki/index.php?title=Ejercicios_de_sed]
 
-* Ejercicio 1- Modifica la IP de un ordenador por la dirección de la red. (por ejemplo de 192.168.3.5 a 192.168.3.0)
+* Ejercicio 1- Modifica la IP de un ordenador por la dirección de la red. (por
+  ejemplo de 192.168.3.5 a 192.168.3.0)
 
 * Ejercicio 2- Cambia del PATH, el /usr/bin por /home/lliurex/bin
 

@@ -14,7 +14,7 @@ por que `/bin` esta en la variable de entorno `PATH`. Cuando se pone un comando
 sin el path completo se busca en todos los directorios listados en `PATH` hasta
 que se encuentra o se da error.
 
-Las opciones contralan detalles de la ejecucion del comando. No todos los
+Las opciones controlan detalles de la ejecucion del comando. No todos los
 comandos los tratan igual, pero en general siguen estas reglas:
 
 * Existe una forma corta y una larga: -a es igual a --all. La forma corta solo

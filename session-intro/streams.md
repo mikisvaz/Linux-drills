@@ -3,7 +3,7 @@ Ficheros y Streams
 
 Un fichero es una secuencia de bytes, en el caso de un fichero de texto, estos
 bytes representan caracteres. Cuando abris un fichero con el editor este lo
-edita todo de golpe, pero amenudo se pueden abrir los ficheros en forma de
+edita todo de golpe, pero a menudo se pueden abrir los ficheros en forma de
 `stream`, que consiste en que los caracteres del fichero van saliendo uno de
 tras de otro. 
 
