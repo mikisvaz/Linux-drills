@@ -9,7 +9,7 @@ de nosotros tiene un sistema particular, aqui or propongo el mio.
 
 Yo sigo mas o menos la nomenclatura de Unix/Linux:
 
-* `src: carpeta con codigo fuente de un programa. Como hago sobre todo scripting no lo uso
+* `src`: carpeta con codigo fuente de un programa. Como hago sobre todo scripting no lo uso
   mucho
 * `bin`: carpeta con scripts y programas ejecutables
 * `lib`: librerias de funciones que son usadas por los scripts de `bin`
