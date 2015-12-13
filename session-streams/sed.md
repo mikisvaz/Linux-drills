@@ -113,8 +113,8 @@ texto capturado por el patron de busqueda con el caracter `&`. Por ejemplo
 tomara el patron encontrado y lo rodeara de parentesis.
 
 
-Vamos a realizar algunos ejercicios. Los he tomado de la (siguiente
-pagina)[http://castilloinformatica.com/wiki/index.php?title=Ejercicios_de_sed]
+Vamos a realizar algunos ejercicios. Los he tomado de la [siguiente
+pagina](http://castilloinformatica.com/wiki/index.php?title=Ejercicios_de_sed)
 
 * Ejercicio 1- Modifica la IP de un ordenador por la dirección de la red. (por
   ejemplo de 192.168.3.5 a 192.168.3.0)
