@@ -11,7 +11,7 @@ Conceptos basicos: Este editor tiene una serie de comandos que se utilizan usand
 principalmente la tecla Ctrl junto con otras teclas; esto se suele escribir como ^J 
 (Ctrl + j)
 
-(Documentacion)[http://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/]
+[Documentacion](http://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/)
 
 * Ejercicio 1: Crear un fichero en `README` con un parrafito de texto. El que
   sea. Probad las funcionalidades de justificar texto y de borrar y pegar lineas.

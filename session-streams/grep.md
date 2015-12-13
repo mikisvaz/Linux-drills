@@ -51,7 +51,7 @@ Veremos algo mas cuando entremos en `sed`
   invierta el filtrad
 
 Los siguientes ejercicios fueron tomados de
-(aqui)[http://evc-cit.info/cit052/grep1.html]. Trabajaremos con el fichero
+[aqui](http://evc-cit.info/cit052/grep1.html). Trabajaremos con el fichero
 `example/grepdata.txt`
 
 Algunas cosas mas que debeis de saber son:

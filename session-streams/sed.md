@@ -8,7 +8,7 @@ Al menos este es el objetivo mas habitual. En realidad `sed` es un programa
 mucho mas potente y versatil de lo que mucho sabemos en la practica. Aunque hay
 mucho mas de lo que voy a contaros en esta clase, lo que si vamos a cubrir es
 en general suficiente, asi que comencemos. Para un repaso mas completo del
-programa podeis acudir (aqui)[http://www.grymoire.com/Unix/Sed.html]
+programa podeis acudir [aqui](http://www.grymoire.com/Unix/Sed.html)
 
 La funcionalidad central de sed es la de "sustitucion". Un comando de
 sustitucion en `sed` tiene este aspecto
@@ -113,8 +113,8 @@ texto capturado por el patron de busqueda con el caracter `&`. Por ejemplo
 tomara el patron encontrado y lo rodeara de parentesis.
 
 
-Vamos a realizar algunos ejercicios. Los he tomado de la (siguiente
-pagina)[http://castilloinformatica.com/wiki/index.php?title=Ejercicios_de_sed]
+Vamos a realizar algunos ejercicios. Los he tomado de la [siguiente
+pagina](http://castilloinformatica.com/wiki/index.php?title=Ejercicios_de_sed)
 
 * Ejercicio 1- Modifica la IP de un ordenador por la dirección de la red. (por
   ejemplo de 192.168.3.5 a 192.168.3.0)
