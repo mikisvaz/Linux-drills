@@ -52,7 +52,7 @@ Veremos algo mas cuando entremos en `sed`
 
 Los siguientes ejercicios fueron tomados de
 [aqui](http://evc-cit.info/cit052/grep1.html). Trabajaremos con el fichero
-`example/grepdata.txt`
+`ejemplos/grepdata.txt`
 
 Algunas cosas mas que debeis de saber son:
  
