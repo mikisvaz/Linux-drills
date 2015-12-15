@@ -1,7 +1,7 @@
 Traduccion de identificadores
 =============================
 
-Vamos a resolver un peque√o caso de uso que ilustra el uso de `grep`, `sed`,
+Vamos a resolver un pequeno caso de uso que ilustra el uso de `grep`, `sed`,
 `cut` y otras comandos basicos de Unix/Linux. Se trata de tomar una lista de
 genes dado en cualquier formato y traducirlos a otro formato concreto.
 
@@ -17,7 +17,7 @@ posiciones de genes, tambien obtenido de Ensembl BioMart.
 Metodologia
 -----------
 
-Vamos a generar un projecto con un binario que tomara como parametros un
+Vamos a generar un proyecto con un binario que tomara como parametros un
 fichero con los genes que queremos traducir y el formato destino. Para
 realizar el mappeo de identificadores utilizaremos grep, pero antes debemos
 preparar los ficheros para poder realizarlo. 
@@ -36,7 +36,7 @@ En el script `bin/translate.sh` habra los siguientes pasos:
 * Utilizar el fichero de indice a nuestro formato destino para realizar el
   segundo paso de traduccion
 
-Examinaremos el projecto tal cual esta para entender su funcionamiento. 
+Examinaremos el proyecto tal cual esta para entender su funcionamiento. 
 
 Ejercicios
 ---------

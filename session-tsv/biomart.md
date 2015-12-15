@@ -23,4 +23,4 @@ lo que queremos. Abajo tenemos el formato de la URL y un XML de ejemplo
 
 Podeis obtener el XML para vuestra query desde BioMart, o tambien podies
 directamente crear el XML. He creado un script in `bin/biomart.sh`, utilizadlo
-para bajar los terminos GO associados a cada gen.
+para bajar los terminos GO asociados a cada gen.
