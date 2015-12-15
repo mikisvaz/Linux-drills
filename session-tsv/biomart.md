@@ -1,7 +1,7 @@
 BioMart
 =======
 
-* URL: http://www.ensembl.org/biomart/martservice?query=<XML> 
+* URL: http://www.ensembl.org/biomart/martservice?query=`<XML>`
 
 * XML: 
     ```
