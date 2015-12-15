@@ -75,5 +75,5 @@ primer campo, que es digamos el de identificador de entidad.
   fichero usando `numera_tabs`, y Utilizadlo para repetir el proceso anterior.
 
 Para realizar el ejercicio 5 habra que ordenar primero los archivos utilizando
-`sort`. Cuando hagais esto vereis
+`sort`.
 
