@@ -46,7 +46,7 @@ fi
 # Creamos un fichero con la 'lista negra', si no existe (con `-e` en lugar de
 # `-d`, por que no tiene que ser un directorio). Estos son genes que no estan
 # en chromosomas `buenos` (los cromosomas 'malos' son parches y correcciones y
-# tienen nombre raros como LRG_12). Usamos el fichero de posiciones, que tiene
+# tienen nombre raros como HG174_HG254_PATCH). Usamos el fichero de posiciones, que tiene
 # como primera y segunda columna el gen y el cromosoma donde esta. Cortamos la
 # primera y segunda columna con `cut`, ya que son las que nos interesa. Usamos
 # `grep` para quitar las lineas que tienen cromosomas 'buenos' (1, 2, 3, ...,
