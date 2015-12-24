@@ -75,4 +75,4 @@ podies formular vuestra pregunta en plan 'how can I change "|" for new line in
 linux" y la poneis en google enseguida encontrareis la respuesta que buscais.
 En este caso concreto la primera que aparece es "replace space with new line",
 que no es exactamente la misma pero os vale. La gran mayoria de las respuestas,
-y probablemente las mejores, las encontrareis en [StackOverflow]:(stackoverflow.com)
+y probablemente las mejores, las encontrareis en [StackOverflow]:(http://stackoverflow.com)
