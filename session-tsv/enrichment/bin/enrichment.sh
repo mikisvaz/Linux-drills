@@ -130,6 +130,8 @@ num_genes_all=`cat $clean_go|wc -l`
 # abrir una sesion interactiva, sino ejecutar lo que le mandan directamente).
 # Lo que viene despues es simplemente para limpiar un poco la salida de `R` y
 # obtener el p-valor. El resultado lo escribimos por STDOUT utilizando `echo`
+
+echo "#Termino GO	Genes nuestos con termino	Total genes con termino	Total genes sin termino	Total de nuestros genes	P-valor"
 for t in `cat $matched_terms`; do
     count=`grep $t $matches|wc -l`
     if [ $count -ge 3 ]; then
