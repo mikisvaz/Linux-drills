@@ -30,5 +30,8 @@ trabajar, `/tmp` en nuestro ejemplo. En Linux es comun que las opciones puedan
 estar antes o despues de los parametros o entremezcladas, en Mac por ejemplo
 muchos comandos no funcionan si pones las opciones al final.
 
-Nota: es posible que los nombre usados, opciones y parametros, no sean siempre
-las que encontreis. Lo importante es que entendais la diferencia entre ambas.
+Nota: es posible que los nombre usados, opciones y parametros, no sean siempre las que 
+encontreis. Por ejemplo, lo que yo llamo 'parametros' algunas veces se llaman tambien 
+opciones o parametros 'posicionales' ya que a diferencia de las opciones es importante 
+el orden o la posicion en que aparezcan. Lo importante es que entendais la diferencia 
+entre ambas.
