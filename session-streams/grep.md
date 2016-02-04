@@ -50,7 +50,7 @@ Veremos algo mas cuando entremos en `sed`
 
 * Ejercicio 3: Utilizar grep para buscar aquellas mutaciones donde el
   chromosoma NO sea "10". Para esto hay que usar una opcion de `grep` para que
-  invierta el filtrad
+  invierta el filtrad.
   SOLUCION: `grep -v "^10:" ejemplos/mutaciones`
 
 Los siguientes ejercicios fueron tomados de
@@ -88,36 +88,36 @@ Algunas cosas mas que debeis de saber son:
 Aqui van algunos ejercicios mas
 
 * Ejercicio 4: Muestra todas las lineas que tengan un numero de telefono con
-  extension (letra x o X seguido de 4 digitos)
+  extension (letra x o X seguido de 4 digitos).
   SOLUCION: `grep "[xX][[:digit:]]\{4\}" ejemplos/grepdata.txt`
 
 * Ejercicio 5: Muestra todas las lineas que comiencen por 3 digitos y un
-  espacio (utilizad `\{\}`)
+  espacio (utilizad `\{\}`).
   SOLUCION: `grep "^[[:digit:]]\{3\} " ejemplos/grepdata.txt`
 
 * Ejercicio 6: Muestra todas las lineas que contengan un año (suponed que es
-  despues del 2000)
+  despues del 2000).
   SOLUCION: `grep "2[[:digit:]]\{3\} " ejemplos/grepdata.txt`
 
 * Ejercicio 7: Muestra todas las lineas que NO comiencen por la letra mayuscula
-  "S"
+  "S".
   SOLUCION: `grep -v "^S" ejemplos/grepdata.txt`
 
 Los siguientes ejercicios requieren que especifiques alguna opcion particular
 para `grep`
 
 * Ejercicio 8: Muestra las lineas que contengan "CA", tanto en mayusculas como
-  en minusculas
+  en minusculas.
   SOLUCION: `grep -i "CA" ejemplos/grepdata.txt`
 
 * Ejercicio 9: Muestra las lineas que contengan una direccion de email,
-  listando el numero de la linea
+  listando el numero de la linea.
   SOLUCION: `grep -n "@" ejemplos/grepdata.txt`
 
-* Ejercicio 10: Muestra las lineas que NO contengan el texto "Sep."
+* Ejercicio 10: Muestra las lineas que NO contengan el texto "Sep.".
   SOLUCION: `grep -v "Sep\." ejemplos/grepdata.txt`
 
-* Ejercicio 11: Muestra lineas que contengan la palabra _completa_ "de"
+* Ejercicio 11: Muestra lineas que contengan la palabra _completa_ "de".
   SOLUCION: `grep -w "de" ejemplos/grepdata.txt`
 
 

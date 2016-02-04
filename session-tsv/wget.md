@@ -20,13 +20,15 @@ tipo, como imagenes.
 
 * Ejercicio 1: Descargarse las interaciones entre proteinas para _Rattus
   norvegicus_ de la base de datos PINA2 en formato MITAB (TSV). Guardadlas en 
-  la subcarpeta `results`
+  la subcarpeta `results`.
+  SOLUCION: `wget "http://cbg.garvan.unsw.edu.au/pina/download/Rattus%20norvegicus-20140521.tsv" -O tmp/rat.mitab`
 
 * Ejercicio 2: utilizad `sed` para realizar las siguientes modificaciones al
   archivo: (1) Eliminad de la cabecera las comillas, (2) añadir el caracter "#"
   al principio de dicha cabecera, y (3) eliminar el prefijo 'uniprotkb:' que
   precede a los codigos de UniProt de todas las lineas. Guardad el resultado
   limpio en `results/Rno.PPI.tsv`
+  SOLUCION: `sed '1 s/"//g;1 s/^/#/; s/uniprotkb://g' tmp/rat.mitab > results/Rno.PPI.tsv`
 
 Para realizar el ejercicio 2 debemos conocer una caracteristica nueva del
 comando `sed`, la posibilidad de elegir sobre que lineas se realiza la

@@ -54,26 +54,29 @@ primer campo, que es digamos el de identificador de entidad.
   debeis ejecutar el script `bin/set_alias.sh`. Usad `numera_tabs` para
   explorar el fichero `data/identifiers`. Idenfiticad las columnas con
   identificadores de Ensembl y con nombre de genes. Luego utilizad el comando
-  `cut` para extraer esos campos a un fichero llamado `results/gene_names`
+  `cut` para extraer esos campos a un fichero llamado `results/gene_names`.
+  SOLUCION: `source bin/set_alias.sh; numera_tabs data/identifiers | head -n 2; cut -f 1,4 data/identifiers > results/gene_names`
 
 * Ejercicio 2: Utilizad `grep` y `cut` para transformar la lista de genes en
   `data/wnt_genes` a format Ensembl. Pista: con `grep` debeis usar el fichero
   de genes como la lista de patrones a usar `-f <fichero>` estos patrones deben
   de ser encontrados tal cual y como palabras enteras `-F -w`, finalmente
   utilizad `cut` de nuevo para quedaros con el campo de Ensembl.
+  SOLUCION: `grep -F -w -f data/wnt_genes results/gene_names | cut -f 1`
 
 * Ejercicio 3: Comprobad que en numero de genes en Ensembl es igual al numero
   de genes original. No lo es! tratad de averiguar por que
+  SOLUCION: `wc -l data/wnt_genes; grep -F -w -f data/wnt_genes results/gene_names | cut -f 1 |wc -l`
 
 * Ejercicio 4: Para arreglar el problema anterior, eliminad aquellos genes que
   estan asignados a chromosomas 'no-standard'. Esa informacion esta en
   `data/gene_positions`. Usad los genes 'no-standard' para filtrar de nuevo
   vuestra lista de Ensembl
+  SOLUCION: `mkdir tmp; grep "\(HS\|HG\|LRG\|GL\)" data/gene_positions > tmp/bad_genes; grep -F -w -f data/wnt_genes results/gene_names | grep -v -F -w -f tmp/bad_genes`
 
 * Ejercicio 5: Unid el fichero `data/identifiers` con `data/gene_positions`
-  utilizando el comando `join` y colocadlo en `results/gene_info`. Examinad ese
-  fichero usando `numera_tabs`, y Utilizadlo para repetir el proceso anterior.
+  utilizando el comando `join` y colocadlo en `results/gene_info`.
+  SOLUCION: `sort data/identifiers > tmp/ids; sort data/gene_positions > tmp/pos; join tmp/ids tmp/pos >  tmp/joined`
 
-Para realizar el ejercicio 5 habra que ordenar primero los archivos utilizando
-`sort`.
+Para realizar el ejercicio 5 habra que ordenar primero los archivos utilizando `sort`.
 
