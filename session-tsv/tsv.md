@@ -76,7 +76,7 @@ primer campo, que es digamos el de identificador de entidad.
 
 * Ejercicio 5: Unid el fichero `data/identifiers` con `data/gene_positions`
   utilizando el comando `join` y colocadlo en `results/gene_info`.
-  SOLUCION: `sort data/identifiers > tmp/ids; sort data/gene_positions > tmp/pos; join tmp/ids tmp/pos >  tmp/joined`
+  SOLUCION: `sort data/identifiers > tmp/ids; sort data/gene_positions > tmp/pos; join tmp/ids tmp/pos >  results/gene_info`
 
 Para realizar el ejercicio 5 habra que ordenar primero los archivos utilizando `sort`.
 
