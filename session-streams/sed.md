@@ -114,7 +114,8 @@ tomara el patron encontrado y lo rodeara de parentesis.
 
 
 Vamos a realizar algunos ejercicios. Los he tomado de la [siguiente
-pagina](http://castilloinformatica.com/wiki/index.php?title=Ejercicios_de_sed)
+pagina](http://castilloinformatica.com/wiki/index.php?title=Ejercicios_de_sed).
+En esa direccion podeis encontrar las soluciones
 
 * Ejercicio 1- Modifica la IP de un ordenador por la dirección de la red. (por
   ejemplo de 192.168.3.5 a 192.168.3.0)
